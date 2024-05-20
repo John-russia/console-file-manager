@@ -1,4 +1,4 @@
 package ru.ivanov.file.manager.inouts;
 
-public class CommandIn {
+public record CommandIn (String currentPath, String[] command){
 }
